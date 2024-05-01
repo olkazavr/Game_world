@@ -82,3 +82,9 @@ h1{
     color: rgb(255, 255, 255);
 }
 
+@media screen and (min-width: 768px) {
+ .container{
+    display: flex;
+    justify-content: center;
+  }
+}
