@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(13, 13, 15);
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.input-field{
+    display: flex;
+    margin: 13px;
+}
+
+#search {
+    flex:1;
+    font-family: "Play", sans-serif;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    padding: 10px;
+}
+
+a {
+    color: rgb(192, 184, 184);
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+p{
+    text-align: center;
+}
+
+h1{
+    color: rgb(83, 78, 78);
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+}
